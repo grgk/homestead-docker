@@ -25,3 +25,4 @@ WORKDIR /opt/app/
 
 COPY crontab /var/crontab
 RUN crontab /var/crontab && touch /var/log/cron.log && cron
+
