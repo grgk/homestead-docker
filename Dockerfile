@@ -21,7 +21,7 @@ RUN echo 'alias ll="ls --color=auto -la"' >> ~/.bashrc \
     && echo 'alias phpunit="vendor/bin/phpunit"' >> ~/.bashrc \
     && echo 'alias artisan="php ./artisan"' >> ~/.bashrc
 
-EXPOSE 11300
+EXPOSE 11300/TCP
 
 WORKDIR /opt/app/
 
